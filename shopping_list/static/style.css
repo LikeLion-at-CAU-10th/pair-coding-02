@@ -1,9 +1,13 @@
+body{
+    background-color : gray;
+}
 .logo img{
     width: 20vh;
     height: 5vh;
 }
 
 .nav-bar{
+    background-color :white;
     display: flex;
     justify-content: space-evenly;
 }
@@ -42,10 +46,14 @@
     white-space: nowrap;
 }
 
-.download{
-    flex-basis: 14%;
+
+.menu-right{
+    display: flex;
+    flex-basis : 28%;
+    justify-content : flex-end;
+
 }
 
-.chat{
-    flex-basis:14%;
+.download{
+    margin-right : 4vh;
 }
