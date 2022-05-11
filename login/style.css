@@ -6,7 +6,7 @@ body{
     display: flex;
     flex-direction: column;
     width: 550px;
-    height: 800px;
+    height: 570px;
     background-color: aliceblue;
     padding: 20px;
     border-radius: 10px;
@@ -37,6 +37,7 @@ body{
 
 h1 {
     font-size: 24px;
+    font-weight: 400;
 }
 
 .login-button button{
@@ -44,6 +45,8 @@ h1 {
     color: white;
     border-radius: 5px;
     border-style: none;
+    font-size: 24px;
+    height: 60px;
 }
 
 .div-check {
@@ -53,7 +56,11 @@ h1 {
 .div-check img {
     width: 20px;
     height: 20px;
-    margin-top: 15px;
+    margin-top: 17px;
+}
+
+.div-check p {
+    padding-left: 5px;
 }
 
 button {
@@ -66,6 +73,7 @@ button {
     display: flex;
     width: 300px;
     justify-content: center;
+    margin: auto;
 }
 
 .div-find button {
@@ -77,4 +85,44 @@ button {
 
 .div-button p {
     text-align: center;
+}
+
+.google-button button {
+    background-color: aliceblue;
+    border:2px solid rgb(201, 201, 201);
+    margin-bottom: 10px;
+}
+
+.face-button button {
+    background-color: aliceblue;
+    border:2px solid rgb(84, 181, 255);
+    margin-bottom: 10px;
+}
+
+.naver-button button {
+    background-color: aliceblue;
+    border:2px solid rgb(38, 238, 68);
+    margin-bottom: 10px;
+}
+
+.kakao-button button {
+    background-color: aliceblue;
+    border:2px solid rgb(255, 230, 0);
+    margin-bottom: 10px;
+}
+
+.google-button img {
+    float: left;
+}
+
+.face-button img {
+    float: left;
+}
+
+.naver-button img {
+    float: left;
+}
+
+.kakao-button img {
+    float: left;
 }
