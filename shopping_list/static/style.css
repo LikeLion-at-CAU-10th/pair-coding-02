@@ -1,5 +1,5 @@
 body{
-    background-color : gray;
+    background-color : rgb(235, 234, 234);
 }
 .logo img{
     width: 20vh;
@@ -33,7 +33,7 @@ body{
 
 .search-bar-first{
     display: flex;
-    border: 0.5vh black solid;
+    border: 0.3vh rgb(113, 112, 112) solid;
 }
 
 .box{
@@ -56,4 +56,48 @@ body{
 
 .download{
     margin-right : 4vh;
+}
+
+.container{
+    margin-left: 10vh;
+    margin-bottom: 5vh;
+    margin-top: 3vh;
+    margin-right: 10vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    padding-top: 1.5vh;
+}
+
+.first-floor{
+    font-size: 3vh;
+    font-weight: 700;
+    flex-basis: 10%;
+}
+
+.floor{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.heart{
+    width: 3vh;
+}
+
+.pro{
+    width: 30vh;
+    height: 25vh;
+}
+
+.item{
+    flex-basis: 33%;
+}
+
+.info{
+    display: flex;
+    
 }
