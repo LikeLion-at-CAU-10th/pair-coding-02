@@ -15,6 +15,9 @@ body{
 .div-title {
     width: 550px;
     display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(201, 201, 201);
+    padding: 0 0 10px 0 ;
 }
 
 .div-title p {
@@ -36,6 +39,13 @@ h1 {
     font-size: 24px;
 }
 
+.login-button button{
+    background-color: rgb(10, 137, 255);
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+}
+
 .div-check {
     display: flex;
 }
@@ -49,5 +59,22 @@ h1 {
 button {
     width: 530px;
     height: 50px;
+    border-radius: 5px;
 }
 
+.div-find {
+    display: flex;
+    width: 300px;
+    justify-content: center;
+}
+
+.div-find button {
+    border-style: none;
+    background-color: aliceblue;
+    flex-direction: row;
+    flex-basis: content;
+}
+
+.div-button p {
+    text-align: center;
+}
